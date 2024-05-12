@@ -12,15 +12,15 @@ export default function Page(){
                             <div className={'row bg-secondary-subtle p-3 rounded-3'}>
                                 <select className="form-select mt-3" aria-label="Default select example">
                                     <option selected>Growth Stage</option>
-                                    <option value="1">One</option>
-                                    <option value="2">Two</option>
-                                    <option value="3">Three</option>
+                                    <option value="1">Seedling</option>
+                                    <option value="2">Vegetative</option>
+                                    <option value="3">Mature</option>
                                 </select>
                                 <select className="form-select mt-3" aria-label="Default select example">
                                     <option selected>Severity</option>
-                                    <option value="1">One</option>
-                                    <option value="2">Two</option>
-                                    <option value="3">Three</option>
+                                    <option value="1">Low Growth</option>
+                                    <option value="2">MildGrowth</option>
+                                    <option value="3">Severe Growth</option>
                                 </select>
                             </div>
                             <div className={'row text-center mt-3'}>
